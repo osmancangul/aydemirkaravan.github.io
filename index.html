@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aydemir Karavan-Anasayfa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">
+                <a href="#">AYDEMİR KARAVAN</a>
+            </div>
+
+            <div class="menu">
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="hizmetler.html">Hizmetlerimiz</a></li>
+                    <li><a href="referanslar.html">Referanslarımız</a></li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <a href="#" class="btn">İLETİŞİM</a>
+            </div>
+        </div>
+
+
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide slide1"></div>
+                <div class="slide slide2"></div>
+                <div class="slide slide3"></div>
+            </div>
+            <div class="slider-controls">
+                <button onclick="prevSlide()">&#10094;</button>
+                <button onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+
+
+        <section class="section">
+            <div class="row">
+                <div class="col-1">
+                    <h2>Hakkımızda</h2>
+                    <p>Aydemir Karavan olarak, hem filmcilere hem de müşterilerimize unutulmaz deneyimler sunuyoruz.
+                        Mobil film setleri ve rüya tatilleri için mükemmel araçlarımızla, herkesin ihtiyaçlarına uygun
+                        çözümler sunuyoruz.</p>
+
+                    <div class="entry">
+                        <h3>Vizyonumuz</h3>
+                        <p>Vizyonumuz, karavan deneyimini sürdürülebilir ve unutulmaz bir şekilde dönüştürmek.
+                            Filmcilere eşsiz setler sunarak sanatı ileri taşımayı, müşterilerimize ise özgürlüğü ve
+                            doğayı bir arada yaşatmayı hedefliyoruz. Karavanla seyahatin geleceğini şekillendiriyoruz.
+                        </p>
+                    </div>
+
+                    <div class="entry">
+                        <h3>Misyonumuz</h3>
+                        <p>Misyonumuz, filmcilere mükemmel bir set deneyimi sunarken, müşterilerimize benzersiz ve özgün
+                            karavan maceraları yaşatmaktır. En yüksek kalite standartlarına sadık kalarak, seyahat ve
+                            film yapımını bir araya getirerek herkesi unutulmaz anlarla buluşturmayı amaçlıyoruz.</p>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <img src="logo.png" width="400px" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="section-2">
+            <h2 class="services-title">Hizmetlerimiz</h2>
+            <div class="card">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-hammer" style="font-size: 22px; padding-top: 20px;"></i>
+                    </div>
+                    <h2 class="service-title">Karavan Hizmeti</h2>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+                        justo ac ex cursus elementum.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-hammer" style="font-size: 22px; padding-top: 20px;"></i>
+                    </div>
+                    <h2 class="service-title">Karavan Hizmeti</h2>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+                        justo ac ex cursus elementum.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fa-solid fa-hammer" style="font-size: 22px; padding-top: 20px;"></i>
+                    </div>
+                    <h2 class="service-title">Dekorasyon</h2>
+                    <p class="service-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec
+                        justo ac ex cursus elementum.</p>
+                </div>
+            </div>
+
+        </section>
+        <div class="none">
+            <h2 style="display: flex; justify-content: center; align-items: center; width: 100%; height: 20vh; padding-top: 100px;">Referanslar</h2>
+        </div>
+
+        <section class="carousel-container">
+
+            <button id="prevBtn">Önceki</button>
+            <div class="carousel">
+                <div class="brand"><img src="274929681_280375047547018_603220804094809276_n.jpg" alt="Brand 1"></div>
+                <div class="brand"><img src="281171084_681862706448680_6395712155364452988_n.jpg" alt="Brand 2"></div>
+                <div class="brand"><img src="285508332_129347449758119_3878524623014204161_n.jpg" alt="Brand 3"></div>
+            </div>
+            <button id="nextBtn">Sonraki</button>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-column">
+                <h3>Hakkımızda</h3>
+                <p>Aydemir Karavan</p>
+            </div>
+            <div class="footer-column">
+                <h3>Hızlı Menü</h3>
+                <ul>
+                    <li><a href="#">Anasayfa</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="hizmetler.html">Hizmetler</a></li>
+                    <li><a href="referanslar.html">Referanslar</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>İletişim</h3>
+                <address>
+                    Telsizler, Ulu Sk. No:9, 34410 <br>
+                    Kâğıthane/İstanbul<br>
+                    <a style="color: #e3e3e3; text-decoration: none;" href="tel:+123456789">+90 123 235 54 45</a>
+                </address>
+            </div>
+            <div class="footer-column">
+                <h3>Takip Et</h3
+                <div class="social-icons">
+                    <a target="_blank" href="https://www.instagram.com/aydemirkaravan/"><i style="color: #e3e3e3; font-size: 32px; margin-top: 20px;" class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
